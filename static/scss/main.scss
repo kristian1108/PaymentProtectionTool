@@ -1,0 +1,64 @@
+$light_blue: #73AADF;
+$cream: #F9F9F9;
+
+.left_col{
+  background: $cream;
+}
+
+.right_col{
+  background: $light_blue;
+}
+
+.home_button{
+  transition-duration: 0.4s;
+  background-color: $light_blue;
+  color: black;
+  border: 2px solid $cream;
+  font-size: 24px;
+  padding: 0.7em 4em;
+  border-radius: 2em;
+}
+
+.home_button:hover {
+  background-color: $cream;
+  color: $light_blue;
+}
+
+.next_button {
+  transition-duration: 0.4s;
+  background-color: $cream;
+  color: black;
+  border: 2px solid $light_blue;
+  font-size: 24px;
+  padding: 0.7em 4em;
+  border-radius: 2em;
+  margin-left: 3em;
+}
+
+.next_button:hover {
+  background-color: $light_blue;
+  color: $cream;
+}
+
+p{
+  font-family: 'Karla', sans-serif;
+}
+
+h3 {
+  font-family: 'Karla', sans-serif;
+  font-size: 20px;
+}
+
+h1, h2{
+  font-family: 'Lato', sans-serif;
+}
+
+.hund_labels{
+  font-size: 1.2em;
+  font-family: 'Karla', sans-serif;
+}
+
+.result{
+  font-family: 'Karla', sans-serif;
+  font-size: 5em;
+}
