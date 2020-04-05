@@ -16,4 +16,4 @@ def video(filename):
     return send_file(f'static/vid/{filename}.mp4')
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0')
+    app.run()
