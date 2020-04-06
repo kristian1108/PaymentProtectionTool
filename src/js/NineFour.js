@@ -9,7 +9,7 @@ import {compute_result} from "./Results";
 
 
 const quarters = ['Q1', 'Q2', 'Q3', 'Q4'];
-const form_941 = '/img/form_941.png';
+const form_941 = '/static/img/form_941.png';
 
 let usd = new Intl.NumberFormat("en-US",
     { style: "currency", currency: "USD",
