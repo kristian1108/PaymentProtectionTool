@@ -8,7 +8,6 @@ import {
   Route,
 } from "react-router-dom";
 import {HundredEmployees} from "./HundredEmployees";
-import ls from "local-storage";
 import EmployerHealth from "./EmployerHealth";
 import {Results, compute_result} from "./Results";
 
