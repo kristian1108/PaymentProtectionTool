@@ -9,8 +9,12 @@ const HTML_FILE = path.join(DIST_DIR, '/src/html/index.html');
 
 app.use(express.static(DIST_DIR));
 
-app.get('*', (req, res) => {
-    res.sendFile(HTML_FILE)
+app.use(function (req, res) {
+    if (req.secure) {
+        res.sendFile(HTML_FILE);
+    } else {
+            res.redirect('https://' + req.headers.host + req.url);
+    }
 });
 
 app.listen(PORT);
